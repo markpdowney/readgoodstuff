@@ -10,7 +10,7 @@ router.get('/api/books/:id', db.getBook);
 // application -------------------------------------------------------------
 router.get('/', function (req, res) {
 
-    res.render('index', {title: 'node-postgres-promises'}); // load the single view file (angular will handle the page changes on the front-end)
+    res.render('index', {title: 'RGS'}); // load the single view file (angular will handle the page changes on the front-end)
 });
 
 module.exports = router;
