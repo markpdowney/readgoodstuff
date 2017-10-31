@@ -1,11 +1,12 @@
 /*
     setup the rgs database
+
+
+DROP DATABASE IF EXISTS readgoodstuff;
+CREATE DATABASE readgoodstuff;
 */
 
-DROP DATABASE IF EXISTS rgs;
-CREATE DATABASE rgs;
-
-\c rgs;
+\c dba6n0scu2qa6r;
 
 CREATE TABLE authors (
     ID SERIAL PRIMARY KEY,
