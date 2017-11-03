@@ -16,7 +16,7 @@ function getAllBooks(req, res, next) {
         .json({
           status: 'success',
           data: data,
-          message: 'Retrieved ALL puppies'
+          message: 'Retrieved ALL books'
         });
     })
     .catch(function (err) {
