@@ -1,0 +1,9 @@
+p There are {{books.length}} books
+div(ng-repeat='book in books')
+    h3 {{book.author_id}}
+    div {{book.title}}
+    a(href='api/books/{{book.id}}') More
+    | -
+    Edit
+    | -
+    Delete
